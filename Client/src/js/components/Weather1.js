@@ -21,7 +21,7 @@ var Weather1=React.createClass({
       var humidity=msd.main.humidity;
       var wind=msd.wind.speed;
       var cloud=msd.clouds.all;
-      arr1.push(<Weather2 dates={stdate} time={sttime} desc1={desc} temp1={temp} tempmin1={tempmin} tempmax1={tempmax} pressure1={pressure} humidity1={humidity} wind1={wind} cloud1={cloud}/>);
+      arr1.push(<Weather2 dates={stdate} time={sttime} desc1={desc} temp1={temp} tempmin1={tempmin} tempmax1={tempmax} pressure1={pressure} humidity1={humidity} wind1={wind} cloud1={cloud}>);
    });
 return(
   <div id="tab1">
